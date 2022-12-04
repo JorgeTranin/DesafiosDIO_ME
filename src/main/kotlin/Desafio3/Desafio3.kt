@@ -1,3 +1,5 @@
+package Desafio3
+
 data class Pais(var habitantes: Double, val taxaCrescimento: Double) {
     fun crescerPopulacaoAnual() {
         habitantes += (habitantes / 100 * taxaCrescimento)
